@@ -8,3 +8,4 @@ RUN mkdir hub && \
     ./hub/install && rm -r hub
 
 CMD /usr/local/bin/hub
+ENTRYPOINT /usr/local/bin/hub
